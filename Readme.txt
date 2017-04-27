@@ -6,8 +6,9 @@ How to run:
 1) mvn clean install
    builds jar file
 
-2) spark
-   heroku local web -p 8991  (this set PORT env variable)
+2)
+    // spark : not using spark anymore
+   // heroku local web -p 8991  (this set PORT env variable)
 
    tomcat:
    target\bin\webapp.bat
@@ -34,9 +35,17 @@ How it works: local
 How it works: server
 ==============================================
 
-Just Commit
+Just Commit. It picks up from Procfile
 
 
+==============================================
+Salesforce Configuration
+==============================================
+
+Create external data source with : http://odata-cshah.herokuapp.com/odata.svc
+if you want to view all supported operations : http://odata-cshah.herokuapp.com/odata.svc/$metadata
+
+Click on sync, and it will automatically create all the external objects with their fields.
 
 
 ==============================================
