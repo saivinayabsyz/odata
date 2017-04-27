@@ -12,13 +12,13 @@ cd C:\heroku-workspace\odata
     git add .
     git commit -m "initial check in"
     git remote add origin https://github.com/spring-work/odata.git
-    git push https://dfsco-cshah:Welcome1@github.com/DFSCO/odata.git
+    git push https://spring-work:Welcome1@github.com/spring-work/odata.git
 
 make some changes
     git checkout -b testbranch
     git add .
     git commit -m "branch check in"
-    git push origin testbranch https://dfsco-cshah:Welcome1@github.com/DFSCO/odata.git
+    git push origin testbranch https://spring-work:Welcome1@github.com/spring-work/odata.git
     git checkout master
     git pull origin master
 

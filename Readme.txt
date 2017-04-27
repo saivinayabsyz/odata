@@ -1,3 +1,5 @@
+InitialSetupReadme.txt file has initial setup
+
 ==============================================
 How to run:
 ==============================================
