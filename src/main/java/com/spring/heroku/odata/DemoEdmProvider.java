@@ -22,7 +22,7 @@ public class DemoEdmProvider extends org.apache.olingo.commons.api.edm.provider.
     public static List<String> schemaNames = Arrays.asList("HR", "Customer");
     public static List<String> entityTypeNames = Arrays.asList("Employee", "Address");
     public static final String containerName = "GenericContainer";     // seems like olango support only one container
-    public static List<String> entitySetNames = Arrays.asList("AllEmployees");  //, "AllAddresses", "GoodEmployees", "BadAddresses"
+    public static List<String> entitySetNames = Arrays.asList("AllEmployees", "AllAddresses", "GoodEmployees", "BadAddresses");
     public static final FullQualifiedName CONTAINER_NS = new FullQualifiedName(NAMESPACE, containerName);
 
     @Override
