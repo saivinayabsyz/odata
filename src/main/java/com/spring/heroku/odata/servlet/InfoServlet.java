@@ -29,7 +29,7 @@ public class InfoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)  throws ServletException, IOException {
         try {
-            String output = " db info " + System.getenv("JDBC_DATABASE_URL") ;
+            String output = " db info1 " + System.getenv("JDBC_DATABASE_URL") ;
             output += "\n java version : " + System.getProperty("java.version");
             output +=  "\n\n\n";
             Map<String, String> env = System.getenv();
